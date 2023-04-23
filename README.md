@@ -1,12 +1,3 @@
----
-title: README.md
-updated: 2023-04-23 11:24:50Z
-created: 2023-04-23 10:56:41Z
-latitude: 5.60371680
-longitude: -0.18696440
-altitude: 0.0000
----
-
 # StudentSuccessAI
 
 This project involves analyzing student performance data using machine learning techniques. The aim is to build a model that can predict if a student is likely to pass or fail based on various attributes such as family background, study habits, and other demographic factors.
