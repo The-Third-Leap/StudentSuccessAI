@@ -24,7 +24,6 @@ def map_encode(df):
 
 # Applying feature scaling on dataset
 def feature_scaling(df):
-    # df_scaled = df.copy()
 
     for i in df:
         col = df[i]
@@ -49,30 +48,3 @@ def predict(model, data):
         # return an error message or raise a custom exception
         return "Error occurred while predicting: " + str(e)
     return preds
-
-# def main():
-#     # Load the dataset
-#     df = pd.read_csv('student-data.csv')
-
-#     # Preprocess the data
-#     X, y = preprocess_data(df)
-
-#     # Split the dataset in train and test
-#     X_train, X_test, y_train, y_test = split_data(X, y)
-#     print(X_test.shape)
-#     # Train the model
-#     model = train_model(X_train, y_train)
-#     print(model)
-
-#     # Test the model
-#     y_pred = predict(model, X_test)
-
-#     # Evaluate the model
-#     print("Accuracy:", accuracy_score(y_test, y_pred))
-#     print("Precision:", precision_score(y_test, y_pred))
-#     print("Recall:", recall_score(y_test, y_pred))
-#     print("F1 Score:", f1_score(y_test, y_pred))
-#     print("ROC AUC Score:", roc_auc_score(y_test, y_pred))
-
-# if __name__ == '__main__':
-#     main()
