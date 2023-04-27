@@ -2,9 +2,14 @@
 
 This project involves analyzing student performance data using machine learning techniques. The aim is to build a model that can predict if a student is likely to pass or fail based on various attributes such as family background, study habits, and other demographic factors.
 
+- **Link to App** - https://the-third-leap-studentsuccessai-app-interface-smry0v.streamlit.app/
+- **Link to Youtube Presentation** - https://youtu.be/HNmdE6XNWuo
+
+
 The repository has 2 branches
 - **main** - This contains the notebooks and data used in training the model, as well as the trained model.
 - **Interface** - This contains the Streamlit interface developed to host the code.
+
 
 ## Dataset
 The dataset used for this project is the [Student Performance Dataset](https://www.kaggle.com/datasets/larsen0966/student-performance-data-set) from Kaggle. This dataset contains information on student grades in Mathematics and Portuguese language courses, as well as various demographic and social factors that may influence their performance.
