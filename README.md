@@ -3,7 +3,9 @@
 This project involves analyzing student performance data using machine learning techniques. The aim is to build a model that can predict if a student is likely to pass or fail based on various attributes such as family background, study habits, and other demographic factors.
 
 - **Link to App** - https://the-third-leap-studentsuccessai-app-interface-smry0v.streamlit.app/
-- **Link to Youtube Presentation** - https://youtu.be/HNmdE6XNWuo
+- **Link to Youtube Presentation** 
+    - Part 1: https://youtu.be/nkkAN0ebWtQ
+    - Part 2: https://youtu.be/9ux5btARlNI
 
 
 The repository has 2 branches
